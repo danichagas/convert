@@ -6,6 +6,7 @@ const form = document.querySelector('form')
 const amount = document.getElementById('amount')
 const currency = document.getElementById('currency')
 const footer = document.querySelector('main footer')
+const description = document.getElementById('description')
 
 amount.addEventListener('input', () => {
     const hasCaractersRegex = /\D+/g
@@ -37,10 +38,12 @@ form.onsubmit = (event) => {
  */
 function convertCurrency(amount, price, symbol) {
     try {
+        description.textContent = `1 ${symbol} equivale a = ${price}`
+
         footer.classList.add('show-result')
     } catch (error) {
         footer.classList.remove('show-result')
-        
+
         console.log(error)
         alert('Não foi possível converter, por favor, verifique se você digitou ou fez alguma coisa errada!')
     }
