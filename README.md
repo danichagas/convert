@@ -1,10 +1,10 @@
-# Convert
-💸 Convert é um site feito para você que não quer ficar fazendo contas na hora de transformar seu real em dolar, libra ou euro. Você faz essas conversções apenas inserindo um valor, e escolhendo o tipo de moeda que deseja converter, assim, a conversão do valor é feito de um jeito mágico para você.
+# Convert💸
+Convert is a website made for those who don't want to do the math when converting their reais into dollars, pounds or euros. You can do these conversions by simply entering a value and choosing the type of currency you want to convert, and the conversion is done magically for you.
 
-## Tecnologias utilizadas:
+## Technologies used:
 - HTML5
 - CSS3
 - Javascript
 
-## Link do site:
-[Clique aqui](https://convert-sigma-dusky.vercel.app/)
+## Application link:
+[Click here](https://convert-sigma-dusky.vercel.app/)
